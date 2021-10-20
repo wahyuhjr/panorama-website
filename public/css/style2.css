@@ -1,0 +1,110 @@
+.btn-upload {
+    background-color: #02394A;
+    width: 179px;
+    height: 55px;
+    border-radius: 20px;
+    color: #fff;
+}
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+
+.isi-1 {
+    color: #17B7E9;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.foto {
+
+    max-width: 80%;
+}
+
+#foto-tengah {
+    margin-top: 15%;
+    margin-left: 3px;
+}
+
+.foto-1 {
+
+    margin-top: 40px;
+    max-height: 500px;
+    width: 30vw;
+}
+
+.foto-3 {
+    margin-top: 40px;
+    max-height: 500px;
+    width: 30vw;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.about h1 span {
+    color: #17B7E9;
+}
+
+.organization h1 span {
+    color: #17B7E9;
+}
+
+.line{
+    width: 47%;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.line-color {
+    background-color: #17B7E9;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.structure {
+    width: 20px;
+}
+@media (min-width: 580px) and (max-width: 991px) {
+.line {
+    width: 40%;
+}
+.line-color {
+    width: 65%;
+}
+
+}
+
+
+@media (max-width: 575.98px) {
+    
+.foto img{
+    display: none;
+}
+.btn-upload{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+}
+.line {
+    width: 70%;
+}
+.line-color{
+    width: 60%;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.line {
+    width: 70%;
+    }
+.line-color {
+    width: 80%;
+}
+}
+
