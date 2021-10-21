@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-wave{
+    @apply .bg-wave .w-full .h-full;
+}

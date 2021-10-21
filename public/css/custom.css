@@ -1,0 +1,80 @@
+.line {
+    width: 30%;
+    height: 5px;
+    margin-top: 20px;
+    background-color: #17B7E9;
+}
+
+.title {
+    color: #02394A;
+}
+
+.bg-cover {
+    background-image: url('/public/images/wave.png') !important;
+}
+
+#card-artikel {
+    border-radius: 40px !important;
+    box-shadow: 12px 12px 2px 1px rgba(7, 7, 7, 0.2);
+}
+
+.card-artikel {
+    border-radius: 40px !important;
+    box-shadow: 12px 12px 2px 1px rgba(7, 7, 7, 0.2);
+    /* box-shadow: 0 10px 20px rgb(0 0 0 / 0.2); */
+    background-color: #E9E8D4;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+}
+
+.card-artikel img {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.gallery {
+    display: flex;
+}
+
+#gallery-header {
+    margin-top: -30px !important;
+    color: #02394A;
+}
+
+.gallery {
+    height: 100vh;
+}
+
+.bg-gallery {
+    box-shadow: -10px 12px 0px 5px #02394A;
+    margin-top: 10%;
+    height: 80px;
+    width: 20%;
+    background-color: #E9E8D4;
+}
+
+@media (max-width: 575.98px) {
+    .artikel {
+        background-color: #02394A !important;
+        height: 100%;
+        max-height: 400vh;
+        display: flex;
+        justify-content: center;
+    }
+    .judul {
+        font-size: 30px;
+        text-align: center;
+    }
+    .line {
+        display: none;
+    }
+    .bg-cover {
+        /* display: none; */
+    }
+    .gallery-header {}
+}
