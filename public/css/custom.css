@@ -1,3 +1,7 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 .line {
     width: 30%;
     height: 5px;
@@ -9,8 +13,14 @@
     color: #02394A;
 }
 
+.container {
+    width: 100%;
+}
+
 .bg-cover {
-    background-image: url('/public/images/wave.png') !important;
+    position: relative;
+    width: 100%;
+    background-image: url('/public/images/wave.png')no-repeat !important;
 }
 
 #card-artikel {
@@ -42,11 +52,12 @@
 }
 
 #gallery-header {
-    margin-top: -30px !important;
+    margin-top: -6% !important;
     color: #02394A;
+    position: relative;
 }
 
-.gallery {
+.gallery-y-72 {
     height: 100vh;
 }
 
@@ -54,20 +65,55 @@
     box-shadow: -10px 12px 0px 5px #02394A;
     margin-top: 10%;
     height: 80px;
-    width: 20%;
+    width: 18%;
     background-color: #E9E8D4;
 }
 
+#foto-gallery {
+    /*width: 100%;
+    */
+    box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.192);
+    border-radius: 30px;
+    height: auto;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+
+/* magazine */
+
+.line-3 {
+    width: 18%;
+    background-color: #17B7E9;
+    height: 5px;
+}
+
+#list-magazine {
+    border-radius: 20px;
+    box-shadow: 6px 6 2px 1px rgba(7, 7, 7, 0.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button {
+    background-color: #17B7E9;
+}
+
 @media (max-width: 575.98px) {
-    .artikel {
+    .mx-auto {
+        position: relative;
         background-color: #02394A !important;
         height: 100%;
-        max-height: 400vh;
+        min-height: 220vh;
         display: flex;
         justify-content: center;
     }
     .judul {
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     }
     .line {
@@ -76,5 +122,32 @@
     .bg-cover {
         /* display: none; */
     }
-    .gallery-header {}
+    .foto {
+        position: relative;
+    }
+    .gallery-y-72 {
+        max-height: 100vh;
+        text-align: center !important;
+    }
+    #gallery-header {
+        font-size: 60px;
+        font-weight: bold;
+        height: 10px;
+        margin-bottom: 40px;
+        margin-top: 20% !important;
+        text-align: center !important;
+    }
+    .bg-gallery {
+        display: none;
+        background-color: transparent;
+    }
+    /* .line-2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        background-color: #17B7E9;
+        margin-top: 15%;
+        height: 4px;
+    } */
 }
