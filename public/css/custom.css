@@ -73,8 +73,6 @@ body {}
 }
 
 #foto-gallery {
-    /*width: 100%;
-    */
     box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.192);
     border-radius: 30px;
     height: auto;
@@ -111,13 +109,13 @@ button {
 }
 
 .logo-footer {
-    margin-top: 10%;
     width: 150px;
     position: relative;
 }
 
 .footer {
-    background-color: ;
+    height: 240px;
+    background-color: #E5E5E5;
 }
 
 .kontak {
