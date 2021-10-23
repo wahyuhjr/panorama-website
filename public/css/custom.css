@@ -1,6 +1,4 @@
-body {
-    font-family: 'Raleway', sans-serif;
-}
+body {}
 
 .line {
     width: 30%;
@@ -11,6 +9,7 @@ body {
 
 .title {
     color: #02394A;
+    font-family: 'Raleway';
 }
 
 .container {
@@ -24,6 +23,7 @@ body {
 }
 
 #card-artikel {
+    font-family: 'Raleway';
     border-radius: 40px !important;
     box-shadow: 12px 12px 2px 1px rgba(7, 7, 7, 0.2);
 }
@@ -31,7 +31,6 @@ body {
 .card-artikel {
     border-radius: 40px !important;
     box-shadow: 12px 12px 2px 1px rgba(7, 7, 7, 0.2);
-    /* box-shadow: 0 10px 20px rgb(0 0 0 / 0.2); */
     background-color: #E9E8D4;
     -webkit-border-radius: 40px !important;
     -moz-border-radius: 40px !important;
@@ -47,6 +46,9 @@ body {
     -o-border-radius: 30px;
 }
 
+
+/* gallery */
+
 .gallery {
     display: flex;
 }
@@ -55,6 +57,7 @@ body {
     margin-top: -6% !important;
     color: #02394A;
     position: relative;
+    font-family: 'Raleway';
 }
 
 .gallery-y-72 {
@@ -81,6 +84,10 @@ body {
     -o-border-radius: ;
 }
 
+.judul {
+    font-family: 'Raleway';
+}
+
 
 /* magazine */
 
@@ -103,7 +110,26 @@ button {
     background-color: #17B7E9;
 }
 
-@media (max-width: 575.98px) {
+.logo-footer {
+    margin-top: 10%;
+    width: 150px;
+    position: relative;
+}
+
+.footer {
+    background-color: ;
+}
+
+.kontak {
+    color: #02394A;
+    font-size: 15px;
+}
+
+svg {
+    color: #17B7E9;
+}
+
+@media (max-width: 575.98px) and (max-width:768px) {
     .mx-auto {
         position: relative;
         background-color: #02394A !important;
@@ -113,6 +139,7 @@ button {
         justify-content: center;
     }
     .judul {
+        font-family: 'Raleway';
         font-size: 40px;
         text-align: center;
     }
@@ -141,13 +168,24 @@ button {
         display: none;
         background-color: transparent;
     }
-    /* .line-2 {
+    button {
+        text-align: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #item-footer {
         text-align: center;
         display: flex;
         justify-content: center;
-        width: 60%;
-        background-color: #17B7E9;
-        margin-top: 15%;
-        height: 4px;
-    } */
+    }
+    .logo-footer {
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sosmed {
+        display: flex;
+        justify-content: center;
+    }
 }
