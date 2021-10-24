@@ -52,6 +52,11 @@
     color: #17B7E9;
 }
 
+.organization img {
+    max-width: 100%;
+    height: auto;
+}
+
 .line{
     width: 47%;
     height: 5px;
@@ -110,9 +115,14 @@
 
 @media (max-width: 575.98px) {
     
-.foto img{
+.foto-panorama img{
     display: none;
 }
+
+/* .organization img {
+    display: none;
+} */
+
 .btn-upload{
     margin-top: 10px;
     width: 100%;

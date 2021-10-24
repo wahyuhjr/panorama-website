@@ -1,6 +1,6 @@
 body {}
 
-.line {
+.line-custom {
     width: 30%;
     height: 5px;
     margin-top: 20px;
@@ -141,7 +141,7 @@ svg {
         font-size: 40px;
         text-align: center;
     }
-    .line {
+    .line-custom {
         display: none;
     }
     .bg-cover {
