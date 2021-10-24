@@ -17,24 +17,24 @@
     margin-bottom: 20px;
 }
 
-.foto {
+.foto-panorama {
 
     max-width: 80%;
 }
 
-#foto-tengah {
+#foto-kedua {
     margin-top: 15%;
     margin-left: 3px;
 }
 
-.foto-1 {
+.foto-pertama {
 
     margin-top: 40px;
     max-height: 500px;
     width: 30vw;
 }
 
-.foto-3 {
+.foto-ketiga {
     margin-top: 40px;
     max-height: 500px;
     width: 30vw;
