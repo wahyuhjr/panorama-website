@@ -1,185 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Tailwind CSS -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>Panorama</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+
+    <title>Tailwind CSS CDN</title>
 </head>
 
 <body>
-    <div class="artikel">
-        <div class="mx-auto md:container">
-            <div class="object-cover w-full min-h-screen bg-cover" style="background-image: url('/public/images/wave.png') ">
-                <div id="judul" class="text-5xl font-bold text-white md:py-20 md:px-20 judul">Whats Going On ?
-                    <div class="line "></div>
+
+
+    <div class="p-10">
+        <!--Card 1-->
+        <div class="w-full lg:max-w-full lg:flex">
+            <div class="flex-none h-48 overflow-hidden text-center bg-cover rounded-t lg:h-auto lg:w-48 lg:rounded-t-none lg:rounded-l" style="background-image: url('/public/images/artikel.png')" title="Mountain">
+            </div>
+            <div class="flex flex-col justify-between p-4 leading-normal bg-white border-b border-l border-r border-gray-400 rounded-b lg:border-l-0 lg:border-t lg:border-gray-400 lg:rounded-b-none lg:rounded-r">
+                <div class="mb-8">
+                    <p class="flex items-center text-sm text-gray-600">
+                        <svg class="w-3 h-3 mr-2 text-gray-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path
+                                d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                        </svg> Members only
+                    </p>
+                    <div class="mb-2 text-xl font-bold text-gray-900">Best Mountain Trails 2020</div>
+                    <p class="text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
                 </div>
-                <div class="flex flex-col items-start p-5 -mt-20 md:flex-row">
-                    <div class="w-full mb-20 md:w-1/4 md:mx-5" id="card-artikel">
-                        <div class="overflow-hidden shadow-lg card-artikel">
-                            <img class="object-cover object-center w-full h-56 " src="/public/images/a-1.jpg" alt="Mountain">
-                            <div class="px-6 py-4">
-                                <div class="mb-2 text-xl font-bold title">Event</div>
-                                <p class="text-base font-bold text-gray-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full mb-20 md:w-1/4 lg:mx-10 md:mx-5" id="card-artikel">
-                        <div class="overflow-hidden shadow-lg card-artikel">
-                            <img class="object-cover object-center w-full h-56 " src="/public/images/a-2.jpg" alt="Mountain">
-                            <div class="px-6 py-4">
-                                <div class="mb-2 text-xl font-bold title">Event</div>
-                                <p class="text-base font-bold text-gray-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full mb-20 md:w-1/4 lg:mx-10 md:mx-5" id="card-artikel">
-                        <div class="overflow-hidden shadow-lg card-artikel">
-                            <img class="object-cover object-center w-full h-56 " src="/public/images/a-2.jpg" alt="Mountain">
-                            <div class="px-6 py-4">
-                                <div class="mb-2 text-xl font-bold title">Event</div>
-                                <p class="text-base font-bold text-gray-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-full mb-20 md:w-1/4 lg:mx-10 md:mx-5" id="card-artikel">
-                        <div class="overflow-hidden shadow-lg card-artikel">
-                            <img class="object-cover object-center w-full h-56 " src="/public/images/a-2.jpg" alt="Mountain">
-                            <div class="px-6 py-4">
-                                <div class="mb-2 text-xl font-bold title">Mountain</div>
-                                <p class="text-base font-bold text-gray-700">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia.
-                                </p>
-                            </div>
-                        </div>
+                <div class="flex items-center">
+                    <img class="w-10 h-10 mr-4 rounded-full" src="/public/images/a-1.jpg" alt="Avatar of Writer">
+                    <div class="text-sm">
+                        <p class="leading-none text-gray-900">John Smith</p>
+                        <p class="text-gray-600">Aug 18</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- gallery -->
-    <section class="h-screen gallery-y-72">
-        <div class="py-6 ml-auto bg-gallery">
-        </div>
-        <h1 class="flex flex-col text-5xl font-bold lg:items-end xl:py-5 gallery-header md:mr-12" id="gallery-header">
-            Gallery
-        </h1>
-        <div class=" line-2"></div>
-        <!-- foto -->
-        <div class="flex items-center justify-center foto">
-            <div class="grid gap-16 p-5 md:mt-10 sm:mx-40 sm:px-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                <div class="w-full">
-                    <img src="/public/images/a-1.jpg" alt="" class="" id="foto-gallery">
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/a-1.jpg" alt="" class="" id="foto-gallery">
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/a-1.jpg" alt="" class="" id="foto-gallery">
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/a-1.jpg" alt="" class="" id="foto-gallery">
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/a-1.jpg" alt="" class="" id="foto-gallery">
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/a-1.jpg" alt="" class="" id="foto-gallery">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end -->
 
-    <!-- magazine -->
-    <section class="min-h-screen mt-5 sm:mt-72 " id="magazine">
-        <h1 class="text-6xl font-bold text-center">Our Magazine</h1>
-        <div class="mt-3 ml-auto mr-auto line-3"></div>
-        <p class="mt-5 ml-auto mr-auto text-sm font-bold text-center text-black md:max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem dignissimos autem officiis repellat error tempora. consectetur adipisicing elit. </p>
-        <!-- list-magazine -->
-        <div class="flex items-center justify-center foto">
-            <div class="grid gap-16 p-5 md:mt-20 sm:mx-40 sm:px-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                <div class="w-full">
-                    <img src="/public/images/majalah1.png" alt="" class="object-cover object-center w-full h-72" id="list-magazine">
-                    <p class="mt-3 text-sm font-bold text-center text-black">Vol.2<br> Brand New You
-                    </p>
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/majalah2.png" alt="" class="object-cover object-center w-full h-72" id="list-magazine">
-                    <p class="mt-3 text-sm font-bold text-center text-black">Vol.3<br>Heroes
-                    </p>
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/majalah3.png" alt="" class="object-cover object-center w-full h-72" id="list-magazine">
-                    <p class="mt-3 text-sm font-bold text-center text-black">Vol.4<br>A Year-End Habbit
-                    </p>
-                </div>
-                <div class="w-full">
-                    <img src="/public/images/majalah4.png" alt="" class="object-cover object-center w-full h-72" id="list-magazine">
-                    <p class="mt-3 text-sm font-bold text-center text-black">Vol.5<br>A New Semester
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex justify-content-end">
-            <button class="px-4 py-2 font-bold text-white rounded-full md:mr-20 hover:bg-blue-700">
-                View More
-            </button>
-        </div>
-    </section>
-    <!-- end magazine -->
-    <!-- footer -->
-    <footer class="flex md:ml-20 footer sm: justify-items-start">
-        <div class="container" id="item-footer">
-            <div class="row">
-                <div class="logo">
-                    <img src="/public/images/icon_header.png" class="logo-footer">
-                </div>
-                <h5 class="mt-3 text-black kontak">Binus University 2024</h5>
-                <h5 class="mt-3 text-black kontak">School of Computer Science</h5>
-                <h5 class="mt-3 text-black kontak">Kontak Kami</h5>
-                <div class="mt-2 sosmed ">
-                    <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 " class="">
-                        <path
-                            d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041
-            1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0
-            1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044
-            2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886
-            0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z " />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 " class="">
-                        <path
-                            d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041
-            1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0
-            1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044
-            2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886
-            0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z " />
-                    </svg>
-                </div>
-                <p class="mt-3 mb-10 font-mono text-sm ">Copyright Moondec.Id</p>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>
-<!-- <span
-                                        class="mx-2 text-sm font-semibold text-gray ">Copyright
-                                        <br>Moondev.Id</span> -->
-
-
-<!--  -->

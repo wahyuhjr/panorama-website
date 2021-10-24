@@ -1,0 +1,31 @@
+.logo-footer {
+    width: 150px;
+    position: relative;
+}
+
+footer {
+    max-height: 10%;
+    position: relative;
+}
+
+.kontak {
+    color: #02394A;
+    font-size: 15px;
+}
+
+@media (max-width: 575.98px) and (max-width:768px) {
+    #item-footer {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-footer {
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sosmed {
+        display: flex;
+        justify-content: center;
+    }
+}
