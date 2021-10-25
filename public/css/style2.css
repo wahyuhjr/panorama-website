@@ -1,83 +1,3 @@
-.foto-panorama {
-
-    max-width: 80%;
-}
-
-#foto-kedua {
-    margin-top: 15%;
-    margin-left: 3px;
-}
-
-.foto-pertama {
-
-    margin-top: 40px;
-    max-height: 500px;
-    width: 30vw;
-}
-
-.foto-ketiga {
-    margin-top: 40px;
-    max-height: 500px;
-    width: 30vw;
-}
-
-.about {
-    margin-top: 40px;
-}
-
-.about h1 span {
-    color: #17B7E9;
-}
-
-.organization h1 span {
-    color: #17B7E9;
-}
-
-.organization img {
-    max-width: 100%;
-    height: auto;
-}
-
-.line{
-    width: 47%;
-    height: 5px;
-    background-color: black;
-    margin-bottom: 20px;
-}
-
-.line-color {
-    background-color: #17B7E9;
-    width: 100%;
-    height: 5px;
-    margin-bottom: 20px;
-}
-
-.structure {
-    width: 20px;
-}
-
-/* Awal Magazine */
-.corner h1 {
-    font-size: 64;
-    font-weight: 700;
-}
-
-.corner h1 span {
-    color: #17B7E9;
-}
-
-.corner p {
-    font-size: 36;
-    font-weight: 700;
-}
-
-.majalah p {
-    font-size: 18;
-    font-weight: 600;
-}
-/* Akhir Magazine */
-
-
 @media (min-width: 580px) and (max-width: 991px) {
 .line {
     width: 40%;
@@ -90,30 +10,13 @@
 
 
 @media (max-width: 575.98px) {
-    
-.foto-panorama img{
-    display: none;
-}
 
-.organization img {
-   
-}
-/* .organization img {
-    display: none;
-} */
-
-.btn-upload{
-    margin-top: 10px;
-    width: 100%;
-    height: 45px;
-}
 .line {
     width: 70%;
 }
 .line-color{
     width: 60%;
 }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
