@@ -17,4 +17,9 @@
     font-size: 18;
     font-weight: 600;
 }
+
+#gallery-modal .modal-img  {
+    margin-left: 25%;
+    width: 50%;
+}
 /* Akhir Magazine */

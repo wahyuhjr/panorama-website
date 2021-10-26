@@ -193,9 +193,14 @@ svg {
     
 }
 
-#gallery-modal .modal-img  {
-    margin-left: 25%;
-    width: 50%;
+@media (min-width: 580px) and (max-width: 991px) {
+    .line {
+        width: 40%;
+    }
+    .line-color {
+        width: 65%;
+        margin-left: 18%;
+    }
 }
 
 @media (max-width: 575.98px) and (max-width:768px) {
