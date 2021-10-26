@@ -4,12 +4,14 @@
 }
 
 footer {
+    font-family: "Raleway";
     max-height: 10%;
     position: relative;
     background-color: #FAFCFF;
 }
 
 .kontak {
+    font-weight: bold;
     color: #02394A;
     font-size: 15px;
 }
