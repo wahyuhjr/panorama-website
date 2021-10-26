@@ -193,6 +193,11 @@ svg {
     
 }
 
+#gallery-modal .modal-img  {
+    margin-left: 25%;
+    width: 50%;
+}
+
 @media (max-width: 575.98px) and (max-width:768px) {
     .artikel-bg {
         position: relative;
