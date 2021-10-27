@@ -193,6 +193,10 @@ svg {
     
 }
 
+#gallery-header {
+    display: none;
+}
+
 @media (min-width: 580px) and (max-width: 991px) {
     .line {
         width: 40%;
@@ -200,6 +204,15 @@ svg {
     .line-color {
         width: 65%;
         margin-left: 18%;
+    }
+}
+
+@media (max-width: 768px) {
+    .kata-gallery {
+        display: none;
+    }
+    .line-custom {
+        display: none;
     }
 }
 
@@ -212,6 +225,9 @@ svg {
         display: flex;
         justify-content: center;
     }
+    /* .kata-gallery {
+        display: none;
+    } */
     .judul {
         font-family: 'Raleway';
         font-size: 40px;
@@ -275,11 +291,7 @@ svg {
     }
     .line-color {
         display: none;
-    }
-    .line-custom {
-        display: none;
-    }
-        
+    }  
     .btn-upload{
         margin-top: 10px;
         width: 100%;
