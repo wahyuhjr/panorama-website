@@ -1,5 +1,10 @@
 body {}
 
+.panorama {
+    /* font-weight: bold;
+    font-family: 'Raleway'; */
+}
+
 .line-custom {
     width: 30%;
     height: 5px;
@@ -48,6 +53,12 @@ body {}
 
 
 /* Awal Panorama foto ketiga atas */
+
+.panorama h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
 .foto-panorama {
     max-width: 80%;
     margin-top: 40px;
@@ -65,10 +76,13 @@ body {}
     max-height: 500px;
     width: 30vw;
 }
+
+
 /* Akhir Panorama foto ketiga atas */
 
 
 /* Awal about */
+
 .about {
     margin-top: 40px;
 }
@@ -76,9 +90,13 @@ body {}
 .about h1 span {
     color: #17B7E9;
 }
+
+
 /* Akhir about */
 
+
 /* Awal organization */
+
 .organization h1 span {
     color: #17B7E9;
 }
@@ -91,12 +109,14 @@ body {}
 .structure {
     width: 20px;
 }
+
+
 /* Akhir organization */
 
 
 /* Awal line */
 
-.line{
+.line {
     width: 47%;
     height: 5px;
     background-color: black;
@@ -109,7 +129,10 @@ body {}
     height: 5px;
     margin-bottom: 20px;
 }
+
+
 /* Akhir line */
+
 
 /* gallery */
 
@@ -177,8 +200,6 @@ button {
     position: relative;
 }
 
-
-
 .kontak {
     color: #02394A;
     font-size: 15px;
@@ -190,7 +211,6 @@ svg {
 
 .link-light {
     text-decoration: none;
-    
 }
 
 #gallery-header {
@@ -219,9 +239,11 @@ svg {
 @media (max-width: 575.98px) and (max-width:768px) {
     .artikel-bg {
         position: relative;
-        background-color: #02394A !important; /* ini yg error */
+        background-color: #02394A !important;
+        /* ini yg error */
         height: 100%;
-        min-height: 220vh;      /* ini yg error */
+        min-height: 220vh;
+        /* ini yg error */
         display: flex;
         justify-content: center;
     }
@@ -260,7 +282,7 @@ svg {
     }
     #btn-magazine {
         text-align: center;
-        width: 70%;  
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20%;
@@ -279,10 +301,9 @@ svg {
         display: flex;
         justify-content: center;
     }
-    .foto-panorama img{
+    .foto-panorama img {
         display: none;
     }
-    
     .line {
         display: none;
     }
@@ -291,11 +312,10 @@ svg {
     }
     .line-color {
         display: none;
-    }  
-    .btn-upload{
+    }
+    .btn-upload {
         margin-top: 10px;
         width: 100%;
         height: 45px;
-}
-    
+    }
 }
