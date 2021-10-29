@@ -1,0 +1,310 @@
+body {}
+
+.panorama {
+    /* font-weight: bold;
+    font-family: 'Raleway'; */
+}
+
+.line-custom {
+    width: 30%;
+    height: 5px;
+    margin-top: 20px;
+    background-color: #17B7E9;
+}
+
+.title {
+    color: #02394A;
+    font-family: 'Raleway';
+}
+
+.container {
+    width: 100%;
+}
+
+.bg-cover {
+    position: relative;
+    width: 100%;
+    background-image: url('/public/images/wave.png')no-repeat !important;
+}
+
+#card-artikel {
+    font-family: 'Raleway';
+    border-radius: 40px !important;
+    box-shadow: 12px 12px 2px 1px rgba(7, 7, 7, 0.2);
+}
+
+.card-artikel {
+    border-radius: 40px !important;
+    box-shadow: 12px 12px 2px 1px rgba(7, 7, 7, 0.2);
+    background-color: #E9E8D4;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+}
+
+.card-artikel img {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* Awal Panorama foto ketiga atas */
+
+.panorama h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.foto-panorama {
+    max-width: 80%;
+    margin-top: 40px;
+    max-height: 500px;
+    width: 30vw;
+}
+
+#foto-kedua {
+    margin-top: 15%;
+    margin-left: 3px;
+}
+
+.foto-ketiga {
+    margin-top: 40px;
+    max-height: 500px;
+    width: 30vw;
+}
+
+
+/* Akhir Panorama foto ketiga atas */
+
+
+/* Awal about */
+
+.about {
+    margin-top: 40px;
+}
+
+.about h1 span {
+    color: #17B7E9;
+}
+
+
+/* Akhir about */
+
+
+/* Awal organization */
+
+.organization h1 span {
+    color: #17B7E9;
+}
+
+.organization img {
+    max-width: 100%;
+    height: auto;
+}
+
+.structure {
+    width: 20px;
+}
+
+
+/* Akhir organization */
+
+
+/* Awal line */
+
+.line {
+    width: 47%;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.line-color {
+    background-color: #17B7E9;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Akhir line */
+
+
+/* gallery */
+
+.gallery {
+    display: flex;
+}
+
+#gallery-header {
+    margin-top: -6% !important;
+    color: #02394A;
+    position: relative;
+    font-family: 'Raleway';
+}
+
+.gallery-y-72 {
+    height: 100vh;
+}
+
+.bg-gallery {
+    box-shadow: -10px 12px 0px 5px #02394A;
+    margin-top: 10%;
+    height: 80px;
+    width: 18%;
+    background-color: #E9E8D4;
+}
+
+#foto-gallery {
+    box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.192);
+    border-radius: 30px;
+    height: auto;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+.judul {
+    font-family: 'Raleway';
+}
+
+
+/* magazine */
+
+.line-3 {
+    width: 18%;
+    background-color: #17B7E9;
+    height: 5px;
+}
+
+.magazine-judul {
+    color: #02394A;
+}
+
+#list-magazine {
+    border-radius: 20px;
+    box-shadow: 6px 6 2px 1px rgba(7, 7, 7, 0.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button {
+    background-color: #17B7E9;
+}
+
+.link-light {
+    text-decoration: none;
+}
+
+#gallery-header {
+    display: none;
+}
+
+@media (min-width: 580px) and (max-width: 991px) {
+    .line {
+        width: 40%;
+    }
+    .line-color {
+        width: 65%;
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 768px) {
+    .kata-gallery {
+        display: none;
+    }
+    .line-custom {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) and (max-width:768px) {
+    .artikel-bg {
+        position: relative;
+        background-color: #02394A !important;
+        /* ini yg error */
+        height: 100%;
+        /* min-height: 220vh; */
+        /* ini yg error */
+        display: flex;
+        justify-content: center;
+    }
+    /* .kata-gallery {
+        display: none;
+    } */
+    .judul {
+        font-family: 'Raleway';
+        font-size: 40px;
+        text-align: center;
+    }
+    .line-custom {
+        display: none;
+    }
+    .bg-cover {
+        /* display: none; */
+    }
+    .foto {
+        position: relative;
+    }
+    .gallery-y-72 {
+        max-height: 100vh;
+        text-align: center !important;
+    }
+    #gallery-header {
+        font-weight: bold;
+        height: 10px;
+        margin-top: 10% !important;
+        text-align: center !important;
+        display: block;
+    }
+    .bg-gallery {
+        display: none;
+        background-color: transparent;
+    }
+    #btn-magazine {
+        text-align: center;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20%;
+    }
+    #item-footer {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-footer {
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sosmed {
+        display: flex;
+        justify-content: center;
+    }
+    .foto-panorama img {
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+    .line-3 {
+        display: none;
+    }
+    .line-color {
+        display: none;
+    }
+    .btn-upload {
+        margin-top: 10px;
+        width: 100%;
+        height: 45px;
+    }
+}

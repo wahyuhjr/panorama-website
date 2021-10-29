@@ -1,0 +1,48 @@
+.header-artikel {
+    font-family: "Raleway";
+    color: #02394A;
+}
+
+.title-artcle {
+    color: #02394C;
+}
+
+.news {
+    color: #17B7E9;
+}
+
+.container {
+    width: 100%;
+}
+
+svg {
+    color: #17B7E9;
+}
+
+#header-artikel {
+    display: none;
+}
+
+@media (max-width: 575.98px) and (max-width:768px) {
+    #item-footer {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-footer {
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sosmed {
+        display: flex;
+        justify-content: center;
+    }
+    #img-logo {
+        display: none;
+    }
+    #header-artikel {
+        display: block;
+        font-weight: bold;
+    }
+}
