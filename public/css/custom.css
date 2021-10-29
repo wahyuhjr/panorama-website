@@ -182,6 +182,10 @@ body {}
     height: 5px;
 }
 
+.magazine-judul {
+    color: #02394A;
+}
+
 #list-magazine {
     border-radius: 20px;
     box-shadow: 6px 6 2px 1px rgba(7, 7, 7, 0.2);
@@ -193,20 +197,6 @@ body {}
 
 button {
     background-color: #17B7E9;
-}
-
-.logo-footer {
-    width: 150px;
-    position: relative;
-}
-
-.kontak {
-    color: #02394A;
-    font-size: 15px;
-}
-
-svg {
-    color: #17B7E9;
 }
 
 .link-light {

@@ -1,7 +1,12 @@
 /* Awal Magazine */
+
 .corner h1 {
     font-size: 64;
     font-weight: 700;
+}
+
+#project {
+    margin-top: 10%;
 }
 
 .corner h1 span {
@@ -18,8 +23,10 @@
     font-weight: 600;
 }
 
-#gallery-modal .modal-img  {
+#gallery-modal .modal-img {
     margin-left: 25%;
     width: 50%;
 }
+
+
 /* Akhir Magazine */

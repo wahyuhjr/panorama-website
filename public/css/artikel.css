@@ -19,6 +19,10 @@ svg {
     color: #17B7E9;
 }
 
+#header-artikel {
+    display: none;
+}
+
 @media (max-width: 575.98px) and (max-width:768px) {
     #item-footer {
         text-align: center;
@@ -33,5 +37,12 @@ svg {
     #sosmed {
         display: flex;
         justify-content: center;
+    }
+    #img-logo {
+        display: none;
+    }
+    #header-artikel {
+        display: block;
+        font-weight: bold;
     }
 }
