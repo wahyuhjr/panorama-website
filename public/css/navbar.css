@@ -1,0 +1,30 @@
+.btn-upload {
+    background-color: #17B7E9;
+    width: 179px;
+    height: 55px;
+    border-radius: 20px;
+    color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.isi-1 {
+    color: #17B7E9;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+    .btn-upload {
+        margin-top: 10px;
+        width: 100%;
+        height: 45px;
+    }
+}

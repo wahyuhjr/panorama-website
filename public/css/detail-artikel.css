@@ -1,0 +1,14 @@
+.rightbar {
+    /* width: 80%; */
+    background-color: #17B7E9 !important;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.header-title {
+    font-family: "Raleway";
+}
